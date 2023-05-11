@@ -1,0 +1,22 @@
+.input,
+.inputHasBorder {
+  flex: 1;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  line-height: 1.4;
+  color: var(--gray-100);
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+}
+
+.inputHasBorder {
+  border-color: var(--purple-dark);
+}
+
+.input:focus {
+  border-color: var(--purple-dark);
+}
